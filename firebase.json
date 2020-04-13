@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "js21days-challenge",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
