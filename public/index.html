@@ -3,64 +3,75 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.14.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.14.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.14.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.14.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.14.0/firebase-storage.js"></script>
-    <script src="/__/firebase/7.14.0/firebase-analytics.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <title>HomeWork for js21days challenge</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div id="message">
-      <h2>js21days</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+      <h2>day1</h2>
+      <h1>Falling Snow</h1>
+      <img width="360" height="183" src="image/01-falling-snow.gif" alt="01-falling-snow">
+      <a target="_blank" href="./01-falling-snow/index.html">DEMO</a>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+    <div id="message">
+      <h2>day2</h2>
+      <h1>Countdown Timer</h1>
+      <img width="360" height="183" src="image/02-countdown-timer.png" alt="02-countdown-timer">
+      <a target="_blank" href="./02-countdown-timer/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day4</h2>
+      <h1>Eye Rolling</h1>
+      <img width="360" height="183" src="image/04-eye-rolling.gif" alt="04-eye-rolling">
+      <a target="_blank" href="./04-eye-rolling/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day5</h2>
+      <h1>Watercolor Painting</h1>
+      <img width="360" height="183" src="image/05-watercolor-painting.png" alt="05-watercolor-painting">
+      <a target="_blank" href="./05-watercolor-painting/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day6</h2>
+      <h1>Duck Hunt</h1>
+      <img width="360" height="183" src="image/06-duck-hunt.png" alt="06-duck-hunt">
+      <a target="_blank" href="./06-duck-hunt/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day7</h2>
+      <h1>Konami Code</h1>
+      <img width="360" height="183" src="image/07-konami-code.png" alt="07-konami-code">
+      <a target="_blank" href="./07-konami-code/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day9</h2>
+      <h1>Parallax Scrolling</h1>
+      <img width="360" height="183" src="image/09-parallax-scrolling.png" alt="09-parallax-scrolling">
+      <a target="_blank" href="./09-parallax-scrolling/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day10</h2>
+      <h1>Kanban Board</h1>
+      <img width="360" height="183" src="image/10-kanban-board.png" alt="10-kanban-board">
+      <a target="_blank" href="./10-kanban-board/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day11</h2>
+      <h1>Watercolor Painting</h1>
+      <img width="360" height="183" src="image/11-text-reveal.png" alt="11-text-reveal">
+      <a target="_blank" href="./11-text-reveal/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day12</h2>
+      <h1>Air Quality Visualizer</h1>
+      <img width="360" height="183" src="image/12-air-quality-visualizer.png" alt="12-air-quality-visualizer">
+      <a target="_blank" href="./12-air-quality-visualizer/index.html">DEMO</a>
+    </div>
+    <div id="message">
+      <h2>day14</h2>
+      <h1>Carousel</h1>
+      <img width="360" height="183" src="image/14-carousel.png" alt="14-carousel">
+      <a target="_blank" href="./14-carousel/index.html">DEMO</a>
+    </div>
   </body>
 </html>
