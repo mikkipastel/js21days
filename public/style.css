@@ -6,6 +6,29 @@ body {
     padding: 0; 
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cover {
+    background-image: url('image/cover.jpeg');
+    height: 600px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cover h1 {
+    font-size: 3.5em;
+    color: #ffffff;
+}
+
 #message { 
     background: white; 
     max-width: 360px; 
@@ -55,7 +78,7 @@ body {
     font-size: 13px; 
 }
 
-img {
+#message img {
     width: 360px;
     height: 183px;
     border-radius: 3px;
