@@ -15,12 +15,12 @@
   async function displayImages() {
     showLoader();
 
-    const result = await fetch(`https://api.unsplash.com/photos/?client_id=${KEY}&page=${page}&query=food`);
+    const result = await fetch(`https://api.unsplash.com/search/photos/?client_id=${KEY}&page=${page}&query=food`);
     const images = await result.json();
 
     const galleryElement = document.querySelector('.gallery');
 
-    images.forEach(image => {
+    images.results.forEach(image => {
       const imageElement = document.createElement('img');
       imageElement.src = image.urls.small;
       imageElement.alt = image.alt_description;
